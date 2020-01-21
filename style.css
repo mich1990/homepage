@@ -1,0 +1,18 @@
+body {
+    background: #cecece;
+}
+
+.mainHeader {
+    color: tomato;
+}
+.sectionHeader{
+    color: #1460aa;
+    background-color: rgb(233, 211, 13);
+}
+
+p {
+    color: darkblue;
+}
+body main section h3{
+    color: blue;
+}
