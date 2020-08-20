@@ -1,18 +1,49 @@
-body {
-    background: #cecece;
-}
 
-.mainHeader {
-    color: tomato;
+.body__header{
+    width: 98%;
+    min-width: 420px;
+    height: 30px;
+    background-color: darkgreen;
+    padding: 10px 10px 10px 10px;
+    text-align: left;
+    position: fixed;
+    top: 5px;
+    border-radius: 10px;;
 }
-.sectionHeader{
-    color: #1460aa;
-    background-color: rgb(233, 211, 13);
+.header__a--index, .header__a--E21, .header__a--E30, .header__a--E36, .header__a--models{
+    text-decoration: none;
+    outline: none;
+    font-weight: bold;
+    box-sizing: border-box;
+    display: inline;
+    padding-left: 10px;;
+    top: 3px;
 }
-
-p {
-    color: darkblue;
+.header__a--index:hover{
+    color: red;
 }
-body main section h3{
-    color: blue;
+.header__a--E21:hover{
+    color: black;
+    background-color: blue;
+}
+.header__a--E30:hover{
+    color: black;
+    background-color: white;
+}
+.header__a--E36:hover{
+    color: white;
+    background-color: black;
+}
+.body__main{
+    padding-top: 30px;
+    max-width: 1000px;
+    margin: auto;
+}
+.main__header{
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+}
+.main__section, .main__article{
+    text-align: center;
 }
